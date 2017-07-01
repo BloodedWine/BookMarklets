@@ -1,4 +1,4 @@
-document.documentElement.innerHTML = '';
+javascript:(function(){document.documentElement.innerHTML = '';
 const canvas = document.getElementById('tetris');
 
 const context = canvas.getContext('2d');
@@ -248,4 +248,4 @@ const player = {
 
 playerReset();
 updateScore();
-update();
+update();})();
